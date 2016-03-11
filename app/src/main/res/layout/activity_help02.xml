@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kazumi.help.HelpActivity01"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="　　对于有高热惊厥史或有抽风史的患儿，如不能及时或很好采用物理降温时，应在医生的指导下，由护士或家长进行药物降温。\n　　药物降温可通过口服、肌肉注射或静脉推注多种途径进行。一般家庭多选用口服途径。\n　　退热药物种类很多，对于小婴幼儿应该首选扑热息痛或含有扑热息痛的药物。\n　　目前医院常推荐的药物包括：百服咛、安佳热、恬倩、泰诺、美林等。这些药物均为水剂，适于小儿服用。对于较大的儿童，也可选择片剂药物，例如：阿司匹林、APC等。服用退热药物后，体温是否能很快下降，除与药物种类和剂量有关外，关键是能否使散热增加。也就是说，前面提到的物理降温是保证退热的前提。服用退热药物后，应注意避免仍然包裹孩子过厚、过严，孩子的体温不易降低；或被捂出大汗，引起脱水等不必要的并发症。"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        />
+</RelativeLayout>

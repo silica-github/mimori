@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.kazumi.help.HelpActivity01"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="常用的物理降温措施与方法，选择一种即可:\n (1) 温水擦浴:一般水温为32~36℃，以擦浴为主，通过温水擦浴，使皮肤血管扩张血流量增加，达到传导散热之目的。\n (2) 温湿敷:用毛巾浸于35℃左右的水中，取出后拧去水份，每10~15分钟换敷一次胸腹部。但要注意，如患儿不适应，出现发抖，面色发灰，肢端冷，应立即停敷。\n (3) 酒精擦浴:用纱布沾取30~50％的温水酒精，反复擦洗腋窝，腹股沟区，肘部，颈胸，后背及手足心等血管丰富的区域，通过蒸发降温。擦浴巾避开小儿心前区，观察面色变化，30分钟测一次体温，以防着凉和降温过度。\n (4) 冰敷:以冰块或冰水作成冰帽，冰袋，冰枕等冷敷头部及腋下腹股沟等处。重点降低颅脑部温度，减少代谢及耗氧，保护大脑，以减少并发症和后遗症。\n (5) 冷盐水灌汤:持续高热或体温达40℃左右的清醒患儿，可用4℃等渗盐水300~500毫升灌肠。对菌痢引起的高热更适宜，既可降温又有治疗作用。 \n 物理降温简单易行，家庭或医院均可广泛应用，进行物理降温时应注意如下情况:\n (1) 高热伴有畏寒的患儿;有出血倾向的患者，如白血病及其它血液病等禁用擦浴。\n (2) 降温要掌握适度，一般降至38℃左右即可，并注意密切观察病人，以防降温过快，过低引起虚脱。\n (3) 如果物理降温效果不满意，可适当配合药物降温。\n (4) 降温过程中，掌握好液体出入量，维持好水，电解质。\n"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scrollbars="vertical"
+        android:singleLine="false"
+        />
+</RelativeLayout>
